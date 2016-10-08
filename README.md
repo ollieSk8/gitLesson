@@ -116,3 +116,21 @@ git branch
 ```
 git branch -d dev
 ```
+## 即创建分支同时进入到分之中
+```
+git checkout -b dev
+
+相当于下面俩句
+git branch 分支名
+git checkout 分知名
+```
+## 创建线上分支
+```
+git checkout -b gh-pages
+```
+## 在分支上进行开发
+- 开发后切换到主分支上合并本次的开发
+```
+git merge dev  在主干分支上合并就要切换到主分支上
+```
+-
