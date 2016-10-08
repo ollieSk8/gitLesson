@@ -5,7 +5,9 @@ git config --global user.name '用户名'
 git config --global user.email '邮箱'
 ```
 - 查看配置
+```
 git config --list
+```
 ##  创建目录
 ```
 mkdir 目录的名字
@@ -16,8 +18,10 @@ cd ..
 ```
 # locals
 ##  git init 
+```
+git init
 初始化本地仓库，表示当前文件夹归git所管理
-
+```
 ## echo可以输入内容并且创建文件 
 ```
 echo hello > index.txt
