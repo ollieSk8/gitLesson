@@ -1,3 +1,4 @@
+![git command](git.jpg) 
 ## 配置
 - git邮箱和账号
 ```
