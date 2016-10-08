@@ -16,12 +16,13 @@ mkdir 目录的名字
 ```
 cd ..
 ```
-# locals
+# 本地文件夹操作（locals)
 ##  git init 
 ```
 git init
-初始化本地仓库，表示当前文件夹归git所管理
 ```
+> 初始化本地仓库，表示当前文件夹归git所管理
+
 ## echo可以输入内容并且创建文件 
 ```
 echo hello > index.txt
@@ -55,7 +56,7 @@ git add .   /git add -A / git add 文件名
 
 ## 提交到历史区中
 ```
-git commit 
+git commit -m "对于本次提交的描述内容"
 ```
 
 ## 查看版本库日志
@@ -199,4 +200,6 @@ touch .gitignore
 .DS_Store
 node_modules/
 ```
+##git详细教程
+[**git廖雪峰教程**](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) 
 
