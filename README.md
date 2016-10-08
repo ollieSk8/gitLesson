@@ -27,6 +27,10 @@ echo hello > index.txt
 ```
 cat 文件名
 ```
+## 创建文件
+```
+touch 文件名
+```
 ## 编辑
 ```
 vi index.txt
