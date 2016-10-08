@@ -1,5 +1,5 @@
 ## 配置
-- 的git邮箱和账号
+- git邮箱和账号
 ```
 git config --global user.name '用户名'
 git config --global user.email '邮箱'
@@ -140,7 +140,7 @@ git merge dev  在主干分支上合并就要切换到主分支上
 ## 解决冲突
 将<<<< ====>>>>>删除保留想要的再次提交
 再次add commit 生成合并后的版本
-## 查看族谱（以图像形式显示）
+## 查看族谱（以图像形式显示并显示分支）
 ```
-git log --graph
+git log --graph --decorate
 ```
