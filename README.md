@@ -201,6 +201,13 @@ touch .gitignore
 .DS_Store
 node_modules/
 ```
+## 将远程仓的资源拉取到本地
+- 拉取最新代码
+```
+git pull
+```
+## github上的fork
+- fork只能fork一次 拉取过来的仓库 原来被fork的仓库改变了 本地仓库不变
 ##git详细教程
 [**git廖雪峰教程**](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) 
 
