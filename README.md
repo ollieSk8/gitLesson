@@ -168,4 +168,21 @@ git stash pop
 ```
 git cherry-pick 当前分支的版本号
 ```
+#origin
+添加本地仓库到远程仓库
+```
+git remote add origin 仓库地址
+```
+## 查看远程仓库地址
+```
+git remote -v
+```
+## 删除远程仓库
+```
+git remote rm origin
+```
+## 推送到远程仓库
+```
+git push -u origin master  第一次提交增加了-u 下一次可以直接使用git push
+```
 
