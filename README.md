@@ -185,4 +185,14 @@ git remote rm origin
 ```
 git push -u origin master  第一次提交增加了-u 下一次可以直接使用git push
 ```
+## 在正常提交之前要使用忽略文件，忽略掉不想提交的文件
+```
+touch .gitignore
+
+添加如下内容
+
+.idea
+.DS_Store
+node_modules/
+```
 
