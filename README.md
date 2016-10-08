@@ -144,3 +144,28 @@ git merge dev  在主干分支上合并就要切换到主分支上
 ```
 git log --graph --decorate
 ```
+## 如果正在开发时却换分支 要保证工作区和暂存区都为干净的 否则不让切换
+
+```
+git stash  保留  用历史区覆盖暂存区和工作区
+```
+
+## 查看保存的内容
+```
+git stash list  查看保存目录
+
+git stash apply 应用保留
+
+git stash drop 丢掉保留
+
+git stash pop
+```
+## rebase 变基
+- rebase 和merge的区别 
+- 更改了合并的线条
+- 不会产生新的提交，在当次提交上演绎分支上的提交，最终合并成了一个提交
+## cherry-pick 挑选精选
+```
+git cherry-pick 当前分支的版本号
+```
+
