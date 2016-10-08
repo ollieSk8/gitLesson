@@ -67,3 +67,52 @@ git diff master
 ```
 git diff --cached
 ``` 
+## 不能用于某个文件的首次提交
+```
+git add 
+git commit -m
+git commit -a -m 'write second'
+```
+
+## 拉回本次的add内容
+```
+git reset HEAD index.txt
+```
+## 将暂存区的内容覆盖掉工作区
+```
+git checkout index.txt
+```
+> 暂存区中没有会从历史区拉回来
+
+## 回滚
+- 用历史区覆盖掉工作区
+```
+git reset --hard 版本号
+```
+## 查看历史版本
+```
+git reflog
+```
+
+## 回滚指定回滚几个版本
+```
+git reset --hard HEAD^/HEAD~1
+```
+
+## 分支
+- 创建分支
+```
+git branch 分支名字
+```
+- 切换分支
+```
+git checkout dev
+```
+- 查看分支
+```
+git branch
+```
+- 删除分支
+```
+git branch -d dev
+```
