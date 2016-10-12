@@ -209,6 +209,22 @@ git pull
 ## github上的fork
 - fork只能fork一次 拉取过来的仓库 原来被fork的仓库改变了 本地仓库不变
 
+## 推送到gh-pages
+- 新建仓库，本地和远程建立关联
+- 切换到gh-pages的分支上
+
+```
+git checkout -b gh-pages
+
+git add .
+
+git commit -m "gh-pages"
+
+git push origin gh-pages
+
+```
+
+
 ##git详细教程
 [**git廖雪峰教程**](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000) 
 
